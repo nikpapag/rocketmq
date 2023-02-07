@@ -75,6 +75,7 @@ public class ClientChannelInfo {
 
     @Override
     public boolean equals(Object obj) {
+        System.out.println("hello");
         if (this == obj)
             return true;
         if (obj == null)
