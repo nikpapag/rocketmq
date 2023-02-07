@@ -44,6 +44,7 @@ public class AclException extends RuntimeException {
 
     public AclException(String status, int code, String message, Throwable throwable) {
         super(message, throwable);
+        System.out.println("helloworld");
         this.status = status;
         this.code = code;
     }
